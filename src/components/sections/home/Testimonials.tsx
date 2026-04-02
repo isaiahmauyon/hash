@@ -20,7 +20,7 @@ export default function HomeTestimonials() {
     ];
 
     return (
-        <section className="relative w-full py-20 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-20 items-center">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-20 items-center">
             <div className="flex flex-col items-center gap-4 md:gap-6 text-center max-w-4xl w-full">
                 <div className="bg-accent px-6 py-2 rounded-full inline-block">
                     <p className="text-xs md:text-lg font-medium tracking-tight">Client Stories</p>

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomeWork() {
     return (
-        <section className="relative w-full py-20 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-16 md:gap-20">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-16 md:gap-20">
             <div className="flex flex-col md:flex-row justify-between items-start gap-8 w-full">
                 <div className="flex flex-col gap-6 max-w-3xl">
                     <div className="bg-accent px-6 py-2 rounded-full inline-block w-fit">

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HomeHero() {
     return (
-        <section className="relative w-full pt-32 pb-24 md:pt-40 md:pb-32 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10">
+        <section className="relative w-full pt-32 pb-12 md:pt-40 md:pb-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10">
             <div className="flex flex-col gap-7 md:w-3/4 lg:w-2/3 text-center md:text-left items-center md:items-start mx-auto md:mx-0">
                 <h1 className="text-[48px] md:text-6xl lg:text-[65px] font-semibold text-primary leading-[1.2] md:leading-[1.1] tracking-[-0.04em]">
                     Build Digital Products. Hire Exceptional Tech Talents.
@@ -13,16 +13,16 @@ export default function HomeHero() {
                 </p>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-4 items-center w-full md:w-auto mt-2 self-stretch md:self-auto mx-auto md:mx-0 md:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 items-center sm:w-auto mt-2 self-stretch sm:self-auto mx-auto md:mx-0 justify-center md:justify-start">
                 <Link
                     href="/start-project"
-                    className="w-full md:w-auto bg-secondary text-white px-6 py-[14px] md:py-4 rounded-full font-medium text-[18px] hover:bg-secondary/90 transition-colors text-center"
+                    className="w-full sm:w-auto bg-secondary text-white px-8 py-3.5 rounded-full font-medium text-lg tracking-tight hover:bg-secondary/90 transition-colors text-center inline-block"
                 >
                     Start a Project
                 </Link>
                 <Link
                     href="/hire"
-                    className="w-full md:w-auto bg-transparent border border-primary text-primary px-6 py-[14px] md:py-4 rounded-full font-medium text-[18px] hover:bg-primary/5 transition-colors text-center"
+                    className="w-full sm:w-auto bg-transparent border-[1.5px] border-primary text-primary px-8 py-3.5 rounded-full font-medium text-lg tracking-tight hover:bg-primary/5 transition-colors text-center inline-block"
                 >
                     Hire Talent
                 </Link>

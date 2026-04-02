@@ -30,7 +30,7 @@ export default function HomeProcess() {
     ];
 
     return (
-        <section className="relative w-full py-20 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-20 items-center">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-20 items-center">
             <div className="flex flex-col items-center gap-4 text-center max-w-3xl">
                 <div className="bg-accent px-6 py-2 rounded-full inline-block">
                     <p className="text-xs md:text-lg font-medium tracking-tight">Our Process</p>
@@ -51,8 +51,8 @@ export default function HomeProcess() {
                             className={cn(
                                 "rounded-[40px] cursor-pointer transition-all duration-500 ease-in-out overflow-hidden flex flex-col",
                                 isActive
-                                    ? "bg-primary text-white p-[40px] justify-between gap-6 md:gap-0 md:flex-[2.5] h-auto md:h-full"
-                                    : "bg-muted text-secondary py-6 md:py-10 px-[40px] justify-center md:justify-start items-center h-[100px] md:h-full md:flex-1 hover:bg-muted/80 shrink-0"
+                                    ? "bg-primary text-white p-8 md:p-[40px] justify-between gap-6 md:gap-0 md:flex-[2.5] h-auto"
+                                    : "bg-muted text-secondary p-6 md:p-[40px] justify-center items-center h-[100px] md:h-auto md:flex-1 hover:bg-muted/80 shrink-0"
                             )}
                         >
                             {isActive ? (
@@ -66,7 +66,7 @@ export default function HomeProcess() {
                                     </p>
                                 </div>
                             ) : (
-                                <div className="w-full flex justify-center items-center md:items-start h-full">
+                                <div className="w-full h-full flex justify-center items-center">
                                     <span className="text-[40px] md:text-[65px] lg:text-[75px] font-bold leading-none tracking-tight">{step.num}</span>
                                 </div>
                             )}

@@ -1,6 +1,6 @@
 export default function HomeStats() {
     return (
-        <section className="relative w-full py-20 md:py-32 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col items-center gap-[48px] md:gap-16">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col items-center gap-[48px] md:gap-16">
             <h2 className="text-[32px] md:text-5xl lg:text-[65px] font-semibold text-center leading-[45px] md:leading-[1.1] tracking-[-0.04em] max-w-5xl text-primary">
                 <span className="text-secondary">Building</span> digital products, <span className="text-secondary">scaling</span> teams, and <span className="text-secondary">redefining</span> what’s possible. Let’s build the future together.
             </h2>

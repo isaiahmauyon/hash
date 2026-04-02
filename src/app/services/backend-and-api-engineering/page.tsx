@@ -109,10 +109,10 @@ export default function BackendEngineeringPage() {
                         Strong products need strong foundations.
                     </h2>
                     <p className="font-medium text-[16px] md:text-[18px] text-[#4c4c4c] tracking-[-0.03em] max-w-[630px] text-center mb-8">
-                        Let's Build the Engine Behind Your Product.
+                        Let&apos;s Build the Engine Behind Your Product.
                     </p>
                     <button className="bg-secondary text-white px-6 py-3.5 rounded-full font-medium text-lg tracking-tight hover:bg-secondary/90 transition-colors inline-block">
-                        Let's Build Your App.
+                        Let&apos;s Build Your App.
                     </button>
                 </section>
 

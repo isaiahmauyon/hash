@@ -7,7 +7,7 @@ interface CTAProps {
 
 export default function CTA({ title }: CTAProps) {
     return (
-        <section className="w-full bg-[#1c273f] py-24 px-6 lg:px-20">
+        <section className="w-full bg-[#1c273f] py-16 md:py-20 px-6 lg:px-20">
             <div className="max-w-4xl mx-auto flex flex-col items-center gap-10 text-center">
                 <div className="flex flex-col gap-6 md:gap-4 items-center">
                     {title ? (

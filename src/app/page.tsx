@@ -17,7 +17,7 @@ export default function Home() {
             {/* Spacer for absolute header */}
             <div className="h-20" />
 
-            <div className="flex flex-col gap-24 md:gap-32 w-full">
+            <div className="flex flex-col w-full">
                 <HomeHero />
                 <HomeStats />
                 <HomeAbout />

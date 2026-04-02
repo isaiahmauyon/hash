@@ -23,7 +23,7 @@ export default function MobileDevelopmentPage() {
 
                 <ServiceBenefits
                     title="Why Mobile Optimization Matters"
-                    description="Mobile usage continues to dominate digital interactions.\n\nA great mobile app puts your business directly in your customers' hands.\n\nHashbangs engineers mobile applications that feel native, responsive, and deeply integrated with the device capabilities."
+                    description="Mobile usage continues to dominate digital interactions.\n\nA great mobile app puts your business directly in your customers&apos; hands.\n\nHashbangs engineers mobile applications that feel native, responsive, and deeply integrated with the device capabilities."
                     benefits={[
                         { text: "Seamless native-like feel" },
                         { text: "Offline capabilities" },
@@ -80,7 +80,7 @@ export default function MobileDevelopmentPage() {
                         Get Your App Into Their Hands.
                     </h2>
                     <p className="font-medium text-[16px] md:text-[18px] text-[#4c4c4c] tracking-[-0.03em] max-w-[630px] text-center mb-8">
-                        Let's Map Out Your App.
+                        Let&apos;s Map Out Your App.
                     </p>
                     <button className="bg-secondary text-white px-6 py-3.5 rounded-full font-medium text-lg tracking-tight hover:bg-secondary/90 transition-colors inline-block">
                         Start Crafting Today

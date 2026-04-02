@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomeAbout() {
     return (
-        <section className="relative w-full py-20 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16 justify-between items-start">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 md:gap-16 justify-between items-start">
             <div className="bg-accent px-6 py-3 rounded-full shrink-0">
                 <p className="text-lg font-medium tracking-tight">About us</p>
             </div>

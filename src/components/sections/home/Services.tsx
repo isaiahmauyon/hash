@@ -50,7 +50,7 @@ export default function HomeServices() {
     const activeContent = services.find(s => s.id === activeService) || services[0];
 
     return (
-        <section className="relative w-full py-20 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-24 items-center">
+        <section className="relative w-full py-12 md:py-16 px-6 lg:px-20 max-w-7xl mx-auto flex flex-col gap-10 md:gap-24 items-center">
             <div className="flex flex-col items-center gap-4 text-center max-w-3xl">
                 <div className="bg-accent px-6 py-2 rounded-full inline-block">
                     <p className="text-xs md:text-lg font-medium tracking-tight">What We Do</p>

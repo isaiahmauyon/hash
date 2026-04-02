@@ -20,7 +20,7 @@ export default function AboutStory() {
                             Founded in 20XX by a group of tech enthusiasts and professionals, Hashbangs is a Nigerian software company that specializes in website and mobile app design, development and redevelopment. The name Hashbangs has its origin from
                         </p>
                         <p>
-                            Our purpose and goal is to help local and national businesses through software solutions. We have observed with keen interest that the technology industry has been polluted by the idea of oversimplifying tech related problems. Businesses have been sold substandard software products like websites built "within five minutes" etc. This is why we are commissioned to build the best quality website and mobile apps using the best possible tools to help improve our clients' businesses.
+                            Our purpose and goal is to help local and national businesses through software solutions. We have observed with keen interest that the technology industry has been polluted by the idea of oversimplifying tech related problems. Businesses have been sold substandard software products like websites built &quot;within five minutes&quot; etc. This is why we are commissioned to build the best quality website and mobile apps using the best possible tools to help improve our clients&apos; businesses.
                         </p>
                     </div>
                 </div>
